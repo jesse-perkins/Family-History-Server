@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "userName": "sheila",
+      "password": "parker",
+      "email": "sheila@parker.com",
+      "firstName": "Sheila",
+      "lastName": "Parker",
+      "gender": "f",
+      "personID": "Sheila_Parker"
+    },
+    {
+      "userName": "bella",
+      "password": "password",
+      "email": "bella@parker.com",
+      "firstName": "Bella",
+      "lastName": "Parker",
+      "gender": "f",
+      "personID": "Bella_Parker"
+    },
+    {
+      "userName": "robert",
+      "password": "password",
+      "email": "bobby@parker.com",
+      "firstName": "Robert",
+      "lastName": "Stanford",
+      "gender": "m",
+      "personID": "Robert_Stanford"
+    }
+  ],
+  "persons": [
+    {
+      "firstName": "Sheila",
+      "lastName": "Parker",
+      "gender": "f",
+      "personID": "Sheila_Parker",
+      "descendant": "sheila"
+    },
+    {
+      "firstName": "Bella",
+      "lastName": "Parker",
+      "gender": "f",
+      "personID": "Bella_Parker",
+      "descendant": "bella"
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Stanford",
+      "gender": "m",
+      "personID": "Robert_Stanford",
+      "descendant": "robert",
+      "father":"Abe_Stanford",
+      "mother":"Eliza_Stanley"
+    },
+    {
+      "firstName": "Abe",
+      "lastName": "Stanford",
+      "gender": "m",
+      "personID": "Abe_Stanford",
+      "descendant": "robert",
+      "spouse":"Eliza_Stanley"
+    },
+    {
+      "firstName": "Eliza",
+      "lastName": "Stanley",
+      "gender": "f",
+      "personID": "Eliza_Stanley",
+      "descendant": "robert",
+      "spouse":"Abe_Stanford"
+    }
+  ],
+  "events": [
+    {
+      "eventType": "started family map",
+      "personID": "Sheila_Parker",
+      "city": "Salt Lake City",
+      "country": "United States",
+      "latitude": 40.7500,
+      "longitude": -110.1167,
+      "year": 2016,
+      "descendant":"sheila",
+      "eventID": "e5244e18-8fc6-4996-a457-aaa60c7ef066"
+    },
+    {
+      "eventType": "started family map",
+      "personID": "Bella_Parker",
+      "city": "Salt Lake City",
+      "country": "United States",
+      "latitude": 40.7500,
+      "longitude": -110.1167,
+      "year": 2016,
+      "descendant":"bella",
+      "eventID": "f5244e18-8fc6-4996-a457-aaa60c7ef066"
+    },
+    {
+      "eventType": "started family map",
+      "personID": "Robert_Stanford",
+      "city": "Salt Lake City",
+      "country": "United States",
+      "latitude": 40.7500,
+      "longitude": -110.1167,
+      "year": 2016,
+      "descendant":"robert",
+      "eventID": "a5244e18-8fc6-4996-a457-aaa60c7ef066"
+    }
+  ]
+}
